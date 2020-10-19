@@ -296,6 +296,7 @@ namespace SKB.Equipment.Cards
         public EquipmentCard(ScriptClassBase ClassBase) : base(ClassBase)
         {
             /* Получение рабочих объектов */
+            // Тестовый комментарий
             control_Categories = ICardControl.FindPropertyItem<CollectionControlView>(RefEquipmentCard.Categories.Alias);
             control_Categories.SingleResult = true;
             control_Categories.Properties.Buttons[0].Visible = true;
